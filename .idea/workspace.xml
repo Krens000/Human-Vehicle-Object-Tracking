@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c1cee668-9a79-4002-b00c-aa2b4cbce6a1" name="Changes" comment="&quot;Intial commit- Human and Vehicle tracking Project&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +19,13 @@
       <option value="repository" />
     </option>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
@@ -27,6 +35,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Krens000&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Krens000/Human-Vehicle-Object-Tracking.git&quot;,
+    &quot;accountId&quot;: &quot;d8c86277-cd4a-42b6-905c-a4de47647249&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -72,7 +92,11 @@
       <updated>1753241804290</updated>
       <workItem from="1753241805928" duration="1795000" />
       <workItem from="1753243815061" duration="262000" />
-      <workItem from="1753324971116" duration="320000" />
+      <workItem from="1753324971116" duration="1322000" />
+      <workItem from="1753332243941" duration="3474000" />
+      <workItem from="1753617562780" duration="606000" />
+      <workItem from="1755512570006" duration="207000" />
+      <workItem from="1755512808567" duration="427000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Intial commit- Human and Vehicle tracking Project&quot;">
       <option name="closed" value="true" />
