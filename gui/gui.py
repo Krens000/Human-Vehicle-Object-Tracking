@@ -2,15 +2,24 @@ import tkinter as tk
 from tkinter import filedialog
 from tracking.tracker import track_objects
 
-def launch_gui():
-    def open_file():
-        file_path = filedialog.askopenfilename()
-        track_objects(file_path)
-
+def run_gui():
     root = tk.Tk()
     root.title("Vehicle & Human Tracker")
 
-    btn = tk.Button(root, text="Select Video/Image", command=open_file)
-    btn.pack(pady=20)
+    def open_file():
+        filepath = filedialog.askopenfilename(
+            filetypes=[("Media files", "*.mp4 *.avi *.jpg *.jpeg *.png *.webp")]
+        )
+        if filepath:
+            track_objects(filepath)
+
+    def open_webcam():
+        track_objects(0)
+
+    btn1 = tk.Button(root, text="Open File", command=open_file, width=20)
+    btn1.pack(pady=10)
+
+    btn2 = tk.Button(root, text="Open Webcam", command=open_webcam, width=20)
+    btn2.pack(pady=10)
 
     root.mainloop()
